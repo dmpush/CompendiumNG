@@ -120,10 +120,10 @@ public class LanguageProperties {
 				
 */		try {
 	        rsrc_bundle_ui = ResourceBundle.getBundle("Languages.general", locale, new LanguageClassLoader());
-	        rsrc_bundle_menus = ResourceBundle.getBundle("Languages.menus", locale, new LanguageClassLoader());
+	        rsrc_bundle_menus = ResourceBundle.getBundle("Languages.ru.menus_ru", locale, new LanguageClassLoader());
 	        rsrc_bundle_popups = ResourceBundle.getBundle("Languages.popups", locale, new LanguageClassLoader());
 	        rsrc_bundle_toolbars = ResourceBundle.getBundle("Languages.toolbars", locale, new LanguageClassLoader());
-	        rsrc_bundle_dialogs = ResourceBundle.getBundle("Languages.dialogs", locale, new LanguageClassLoader());
+	        rsrc_bundle_dialogs = ResourceBundle.getBundle("Languages.ru.dialogs_ru", locale, new LanguageClassLoader());
 	        rsrc_bundle_panels = ResourceBundle.getBundle("Languages.panels", locale, new LanguageClassLoader());
 	        rsrc_bundle_tags = ResourceBundle.getBundle("Languages.tags", locale, new LanguageClassLoader());
 	        rsrc_bundle_stencils = ResourceBundle.getBundle("Languages.stencils", locale, new LanguageClassLoader());
